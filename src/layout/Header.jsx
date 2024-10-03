@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -7,9 +8,9 @@ function Header() {
       <div className="flex gap-x-[67.50px]">
         <div>
           <ul className="flex gap-x-[23px]">
-            <a href="#">
+            <Link to="/installationguide">
               <li>راهنما نصب</li>
-            </a>
+            </Link>
             <a href="#">
               <li>اپ نصبی</li>
             </a>

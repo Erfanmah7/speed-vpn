@@ -9,4 +9,57 @@
     padding: 2rem;
     text-align: center;
   }
+
+  @font-face {
+    font-family: "IranSans DN";
+    src: url(../fonts/IRANSansDN_Light.ttf) format("ttf");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "IranSans";
+    src: url(../fonts/IRANSansWeb.woff2) format("woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "IranSans Light";
+    src: url(../fonts/IRANSansWeb_Light.woff2) format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "IranSans UltraLight";
+    src: url(../fonts/IRANSansWeb_UltraLight.woff2) format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "IranSans Medium";
+    src: url(../fonts/IRANSansWeb_Medium.woff2) format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "IranSans Bold";
+    src: url(../fonts/IRANSansWeb_Bold.woff2) format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Morabba Light";
+    src: url("../fonts/Morabba-Light.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Morabba Medium";
+    src: url("../fonts/Morabba-Medium.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Morabba Bold";
+    src: url("../fonts/Morabba-Bold.woff2") format("woff2");
+    font-display: swap;
+  }
 }

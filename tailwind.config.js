@@ -9,9 +9,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Dana: "Dana",
-        DanaDemiBold: "Dana DemiBold",
-        DanaMedium: "Dana Medium",
+        IranSansDN: "IranSans DN",
+        IranSans: "IranSans",
+        IranSansLight: "IranSans Light",
+        IranSansUltraLight: "IranSans  UltraLight",
+        IranSansMedium: "IranSans Medium",
+        IranSansBold: "IranSans Bold",
         MorabbaLight: "Morabba Light",
         MorabbaMedium: "Morabba Medium",
         MorabbaBold: "Morabba Bold",
