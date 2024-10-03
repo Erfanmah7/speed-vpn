@@ -7,10 +7,10 @@ import {
   AccordionIcon,
 } from "@chakra-ui/react";
 import ComboBox from "../components/ComboBox";
-
+// h-[964px]
 function InstallationGuide() {
   return (
-    <div className="h-[964px] w-[1322px] dark:bg-[#081A30] bg-white rounded-[15px] py-[36px] px-[61px]">
+    <div className=" w-[1322px] dark:bg-[#081A30] bg-white rounded-[15px] pt-[36px] pb-[635px] px-[61px]">
       <div className="flex flex-col items-start gap-y-[5px]">
         <h1 className="text-[34px]">برنامه نصبی مربوط به هر سیستم عامل</h1>
         <p className="text-[20px]">
@@ -45,6 +45,7 @@ function InstallationGuide() {
                   برنامه مورد نظر خود را انتخاب کنید.
                 </p>
                 <ComboBox />
+                <div className="mt-[15px]"><ComboBox /></div>
               </AccordionPanel>
             </AccordionItem>
           </Accordion>

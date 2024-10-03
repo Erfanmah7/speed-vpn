@@ -28,7 +28,7 @@ function ComboBox() {
           </h2>
           <AccordionPanel
             className="text-right mt-2 !text-navy-900 font-YekanBakhLight"
-            pb={420}
+            pb={320}
           >
             {/* /// */}
           </AccordionPanel>
