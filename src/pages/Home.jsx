@@ -41,14 +41,14 @@ function Home() {
               <h1 className="text-[32px]">شارژ کیف پول</h1>
               <p>آیکون</p>
             </div>
-            <div className="flex flex-col justify-center items-start mt-[10px] mb-[13px] gap-y-[3px] text-white/35">
+            <div className="flex flex-col justify-center items-start mt-[10px] mb-[13px] gap-y-[3px] dark:text-white/35 text-black/35">
               <p>مبلغ دلخواه خود را وارد کنید</p>
               <p>به تومان وارد کنید</p>
             </div>
             <div>
               <input
                 type="text"
-                className="w-[379px] h-[56px] rounded-[10px] dark:bg-[#020F20] p-[15px] outline-none mb-[24px]"
+                className="w-[379px] h-[56px] rounded-[10px] dark:bg-[#020F20] bg-[#f1f5f9] p-[15px] outline-none mb-[24px]"
               />
               <button className="w-[379px] h-[56px]  rounded-[10px] hover:bg-[#23E87B] bg-[#1BD3EC] transition-all">
                 ثبت سفارش
