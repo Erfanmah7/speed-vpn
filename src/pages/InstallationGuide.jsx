@@ -25,7 +25,7 @@ function InstallationGuide() {
             className="w-[492px] flex justify-center items-center flex-col"
             allowMultiple
           >
-            <AccordionItem className="p-[30px] w-[492px] bg-[#F3A702] rounded-[30px]">
+            <AccordionItem className="p-[25px] w-[492px] bg-[#F3A702] rounded-[30px]">
               <h2>
                 <AccordionButton className="flex justify-between">
                   <span
@@ -36,7 +36,7 @@ function InstallationGuide() {
                   </span>
 
                   <div className="flex items-center gap-x-3">
-                    <AccordionIcon className="text-right !text-navy-900" />
+                    <AccordionIcon className="text-right !text-white text-[40px]" />
                   </div>
                 </AccordionButton>
               </h2>
@@ -54,7 +54,7 @@ function InstallationGuide() {
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem className="p-[30px] w-[492px] bg-[#1BD3EC] rounded-[30px] mt-[22px]">
+            <AccordionItem className="p-[25px] w-[492px] bg-[#1BD3EC] rounded-[30px] mt-[22px]">
               <h2>
                 <AccordionButton className="flex justify-between">
                   <span
@@ -65,7 +65,7 @@ function InstallationGuide() {
                   </span>
 
                   <div className="flex items-center gap-x-3">
-                    <AccordionIcon className="text-right !text-navy-900" />
+                    <AccordionIcon className="text-right !text-white text-[40px]" />
                   </div>
                 </AccordionButton>
               </h2>
@@ -83,7 +83,7 @@ function InstallationGuide() {
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem className="p-[30px] w-[492px] bg-[#23E87B] rounded-[30px] mt-[22px]">
+            <AccordionItem className="p-[25px] w-[492px] bg-[#23E87B] rounded-[30px] mt-[22px]">
               <h2>
                 <AccordionButton className="flex justify-between">
                   <span
@@ -94,7 +94,7 @@ function InstallationGuide() {
                   </span>
 
                   <div className="flex items-center gap-x-3">
-                    <AccordionIcon className="text-right !text-navy-900" />
+                    <AccordionIcon className="text-right !text-white text-[40px]" />
                   </div>
                 </AccordionButton>
               </h2>
