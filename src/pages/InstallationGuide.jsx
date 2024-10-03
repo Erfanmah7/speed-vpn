@@ -2,7 +2,7 @@ import React from "react";
 
 function InstallationGuide() {
   return (
-    <div className="h-[964px] w-[1322px] bg-[#081A30] rounded-[15px]">
+    <div className="h-[964px] w-[1322px] bg-[#081A30] dark:bg-white rounded-[15px]">
       <div>
         <h1>برنامه نصبی مربوط به هر سیستم عامل</h1>
         <p>
