@@ -45,7 +45,61 @@ function InstallationGuide() {
                   برنامه مورد نظر خود را انتخاب کنید.
                 </p>
                 <ComboBox />
-                <div className="mt-[15px]"><ComboBox /></div>
+                <div className="mt-[15px]">
+                  <ComboBox />
+                </div>
+              </AccordionPanel>
+            </AccordionItem>
+
+            <AccordionItem className="p-[30px] w-[492px] bg-[#1BD3EC] rounded-[30px] mt-[22px]">
+              <h2>
+                <AccordionButton className="flex justify-between">
+                  <span className="text-right font-bold text-navy-900" flex="1">
+                    ios
+                  </span>
+
+                  <div className="flex items-center gap-x-3">
+                    <AccordionIcon className="text-right !text-navy-900" />
+                  </div>
+                </AccordionButton>
+              </h2>
+              <AccordionPanel
+                className="text-right mt-9 !text-navy-900 font-YekanBakhLight"
+                pb={7}
+              >
+                <p className="mb-[10px] text-[18px]">
+                  برنامه مورد نظر خود را انتخاب کنید.
+                </p>
+                <ComboBox />
+                <div className="mt-[15px]">
+                  <ComboBox />
+                </div>
+              </AccordionPanel>
+            </AccordionItem>
+
+            <AccordionItem className="p-[30px] w-[492px] bg-[#23E87B] rounded-[30px] mt-[22px]">
+              <h2>
+                <AccordionButton className="flex justify-between">
+                  <span className="text-right font-bold text-navy-900" flex="1">
+                    ویندوز
+                  </span>
+
+                  <div className="flex items-center gap-x-3">
+                    <AccordionIcon className="text-right !text-navy-900" />
+                  </div>
+                </AccordionButton>
+              </h2>
+              <AccordionPanel
+                className="text-right mt-9 !text-navy-900 font-YekanBakhLight"
+                pb={7}
+              >
+                <p className="mb-[10px] text-[18px]">
+                  برنامه مورد نظر خود را انتخاب کنید.
+                </p>
+                <ComboBox />
+                <div className="mt-[15px]">
+                  <ComboBox />
+                </div>
               </AccordionPanel>
             </AccordionItem>
           </Accordion>

@@ -26,11 +26,29 @@ function ComboBox() {
               </div>
             </AccordionButton>
           </h2>
-          <AccordionPanel
-            className="text-right mt-2 !text-navy-900 font-YekanBakhLight"
-            pb={320}
-          >
-            {/* /// */}
+          <AccordionPanel className="text-center mt-7 !text-navy-900" pb={1}>
+            <div className="">
+              <button className="w-[371px] h-[60px] rounded-[30px] bg-[#F3A702]">
+                دانلود
+              </button>
+              <p className="mt-[10px] text-right text-[13px]">
+                برای دانلود کلیک کنید
+              </p>
+
+              <p className="mt-[18px] text-right text-[20px]">راهنما نصب</p>
+              <div className="flex flex-col items-center justify-center mt-[10px]">
+                <div className="w-[371px] h-[239px] bg-[#081A30] rounded-[5px] flex justify-center items-center">
+                  ویدیو نصب
+                </div>
+                <p className="w-[371px] h-[205px] text-justify mt-[18px]">
+                  پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان داشت که
+                  تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت پایان رسد و
+                  زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگــوی
+                  سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قـرار
+                  گیرد.
+                </p>
+              </div>
+            </div>
           </AccordionPanel>
         </AccordionItem>
       </Accordion>
