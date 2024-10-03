@@ -34,7 +34,16 @@ function Header() {
             </Link>
           </ul>
         </div>
-        <div>
+        <div className="flex items-center gap-[50px]">
+          <div className="cursor-pointer flex gap-x-[9.5px]">
+            <div className="flex flex-col text-sm justify-center items-end">
+              <p>mohammad</p>
+              <p className="text-xs">نام کاربری</p>
+            </div>
+            <svg className="h-[43px] w-[43px] dark:text-[#1F2937] text-white inline-block">
+              <use href="#profile"></use>
+            </svg>
+          </div>
           {/* dark mode */}
           <div className="cursor-pointer" onClick={() => setMod(!mod)}>
             <svg className="h-[43px] w-[43px]  dark:text-[#1F2937] text-white inline-block dark:hidden">
