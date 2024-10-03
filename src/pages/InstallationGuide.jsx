@@ -28,7 +28,10 @@ function InstallationGuide() {
             <AccordionItem className="p-[30px] w-[492px] bg-[#F3A702] rounded-[30px]">
               <h2>
                 <AccordionButton className="flex justify-between">
-                  <span className="text-right font-bold text-navy-900" flex="1">
+                  <span
+                    className="text-right font-bold text-navy-900 text-white"
+                    flex="1"
+                  >
                     اندروید
                   </span>
 
@@ -41,7 +44,7 @@ function InstallationGuide() {
                 className="text-right mt-9 !text-navy-900 font-YekanBakhLight"
                 pb={7}
               >
-                <p className="mb-[10px] text-[18px]">
+                <p className="mb-[10px] text-[18px] text-white">
                   برنامه مورد نظر خود را انتخاب کنید.
                 </p>
                 <ComboBox />
@@ -54,7 +57,10 @@ function InstallationGuide() {
             <AccordionItem className="p-[30px] w-[492px] bg-[#1BD3EC] rounded-[30px] mt-[22px]">
               <h2>
                 <AccordionButton className="flex justify-between">
-                  <span className="text-right font-bold text-navy-900" flex="1">
+                  <span
+                    className="text-right font-bold text-navy-900 text-white"
+                    flex="1"
+                  >
                     ios
                   </span>
 
@@ -67,7 +73,7 @@ function InstallationGuide() {
                 className="text-right mt-9 !text-navy-900 font-YekanBakhLight"
                 pb={7}
               >
-                <p className="mb-[10px] text-[18px]">
+                <p className="mb-[10px] text-[18px] text-white">
                   برنامه مورد نظر خود را انتخاب کنید.
                 </p>
                 <ComboBox />
@@ -80,7 +86,10 @@ function InstallationGuide() {
             <AccordionItem className="p-[30px] w-[492px] bg-[#23E87B] rounded-[30px] mt-[22px]">
               <h2>
                 <AccordionButton className="flex justify-between">
-                  <span className="text-right font-bold text-navy-900" flex="1">
+                  <span
+                    className="text-right font-bold text-navy-900 text-white"
+                    flex="1"
+                  >
                     ویندوز
                   </span>
 
@@ -93,7 +102,7 @@ function InstallationGuide() {
                 className="text-right mt-9 !text-navy-900 font-YekanBakhLight"
                 pb={7}
               >
-                <p className="mb-[10px] text-[18px]">
+                <p className="mb-[10px] text-[18px] text-white">
                   برنامه مورد نظر خود را انتخاب کنید.
                 </p>
                 <ComboBox />
