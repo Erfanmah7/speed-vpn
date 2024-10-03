@@ -14,9 +14,9 @@ function Header() {
             <a href="#">
               <li>اپ نصبی</li>
             </a>
-            <a href="#">
+            <Link to="/filelist">
               <li>لیست فایل ها</li>
-            </a>
+            </Link>
           </ul>
         </div>
         <div>profile</div>
