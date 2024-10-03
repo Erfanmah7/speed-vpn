@@ -29,4 +29,3 @@ function FileList() {
 }
 
 export default FileList;
-// dark:bg-[#020f20] bg-[#f1f5f9]
