@@ -19,7 +19,6 @@ function Home() {
             <div className="w-[384px] h-[329px] rounded-[15px] dark:bg-[#081A30] bg-white">left</div>
           </div>
         </div>
-
         <div className="w-[504px] h-[705px] rounded-[15px] dark:bg-[#081A30] bg-white">
           کیف پول
         </div>
