@@ -15,8 +15,8 @@ function Home() {
             top
           </div>
           <div className="flex gap-x-[24px]">
-            <div className="w-[384px] h-[329px] rounded-[15px] bg-[#081A30]">left</div>
             <div className="w-[384px] h-[329px] rounded-[15px] bg-[#081A30]">right</div>
+            <div className="w-[384px] h-[329px] rounded-[15px] bg-[#081A30]">left</div>
           </div>
         </div>
 
