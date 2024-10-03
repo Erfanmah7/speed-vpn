@@ -13,14 +13,50 @@ function Home() {
       <div className="w-[1322px] h-[705px] flex gap-x-[26px]">
         <div className="w-[792px] h-[705px] flex flex-col gap-y-[21px]">
           <div className="w-[792px] h-[355px] rounded-[15px] dark:bg-[#081A30] bg-white py-[40px] px-[43px] flex gap-x-[30px]">
-            <div className="w-[214px] h-[276px] rounded-[25px] bg-[#23E87B]">
-              top
+            <div className="w-[214px] h-[276px] rounded-[25px] bg-[#23E87B] px-[36px] py-[16px] flex flex-col justify-between">
+              <p>عکس</p>
+              <p>متن</p>
+              <div className="flex justify-center items-center">
+              <p className="text-[13px] w-[141px] text-center mt-[10px]">
+                برای تست رایـگان روی برنامه مــورد نظر کلیک کنید
+              </p>
+              </div>
+              <div className="flex justify-between items-center mt-[10px] text-black">
+                <p>رایگان</p>
+                <p>1 ساعته</p>
+              </div>
+              <button className="bg-[#087E3D] w-[143px] h-[27px] rounded-[5px]  mt-[7px]">3</button>
+              <button className="bg-[#10A753] w-[143px] h-[27px] rounded-[5px] mt-[4px]">2</button>
             </div>
-            <div className="w-[214px] h-[276px] rounded-[25px] bg-[#1BD3EC]">
-              top
+            <div className="w-[214px] h-[276px] rounded-[25px] bg-[#1BD3EC] px-[36px] py-[16px] flex flex-col justify-between">
+            <p>عکس</p>
+              <p>متن</p>
+              <div className="flex justify-center items-center">
+              <p className="text-[13px] w-[141px] text-center mt-[10px]">
+                برای تست رایـگان روی برنامه مــورد نظر کلیک کنید
+              </p>
+              </div>
+              <div className="flex justify-between items-center mt-[10px] text-black">
+                <p>رایگان</p>
+                <p>1 ساعته</p>
+              </div>
+              <button className="bg-[#188796] w-[143px] h-[27px] rounded-[5px]  mt-[7px]">3</button>
+              <button className="bg-[#020F20] w-[143px] h-[27px] rounded-[5px] mt-[4px]">ثبت سفارش</button>
             </div>
-            <div className="w-[214px] h-[276px] rounded-[25px] bg-[#F3A702]">
-              top
+            <div className="w-[214px] h-[276px] rounded-[25px] bg-[#F3A702] px-[36px] py-[16px] flex flex-col justify-between">
+            <p>عکس</p>
+              <p>متن</p>
+              <div className="flex justify-center items-center">
+              <p className="text-[13px] w-[141px] text-center mt-[10px]">
+                برای تست رایـگان روی برنامه مــورد نظر کلیک کنید
+              </p>
+              </div>
+              <div className="flex justify-between items-center mt-[10px] text-black">
+                <p>رایگان</p>
+                <p>1 ساعته</p>
+              </div>
+              <button className="bg-[#BF870F] w-[143px] h-[27px] rounded-[5px]  mt-[7px]">3</button>
+              <button className="bg-[#23E87B] w-[143px] h-[27px] rounded-[5px] mt-[4px]">ثبت سفارش</button>
             </div>
           </div>
           <div className="flex gap-x-[24px]">
