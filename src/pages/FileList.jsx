@@ -28,175 +28,27 @@ function FileList() {
       <div>
         <table>
           <thead>
-            <div className="w-[1218px] h-[52px] dark:bg-[#1BD3EC] bg-[#F3A702] rounded-[15px] mb-[16px] pl-[220px] pr-[82px] py-[6px] flex justify-between items-center">
-              <ul className="flex gap-x-[23px] text-[17px] ">
-                <li className="ml-[161px]">شماره یوزر</li>
-                <li className="ml-[180px]">مانده</li>
-                <li className="ml-[249px]">گزارش سفارش</li>
-                <li>عملیات</li>
-              </ul>
-            </div>
+            <tr className="w-[1218px] h-[52px] dark:bg-[#1BD3EC] bg-[#F3A702] rounded-[15px] mb-[16px] pl-[220px] pr-[82px] py-[6px] flex justify-between items-center">
+              <th className="ml-[161px]">شماره یوزر</th>
+              <th className="ml-[180px]">مانده</th>
+              <th className="ml-[249px]">گزارش سفارش</th>
+              <th>عملیات</th>
+            </tr>
           </thead>
           <tbody>
-            <div className="w-[1218px] h-[60px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[15px] mb-[7px] pl-[220px] pr-[82px] py-[6px] flex justify-between items-center">
-              <ul className="flex gap-x-[23px] text-[14px] items-center">
-                <li className="ml-[173px] shrink">12.5588</li>
-                <li className="ml-[200px] shrink-0">30 روز</li>
-                <li className="ml-[180px] shrink-0">25537 #</li>
-                <li className="flex gap-x-[5px] items-center shrink-0">
-                  <button className="w-[109px] h-[37px] dark:bg-[#F3A702] hover:bg-[#23E87B] bg-[#1BD3EC] rounded-[7px]">
-                    دانلود فایل
-                  </button>
-                  <button className="w-[109px] h-[37px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[7px]">
-                    تمدید
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            <div className="w-[1218px] h-[60px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[15px] mb-[7px] pl-[220px] pr-[82px] py-[6px] flex justify-between items-center">
-              <ul className="flex gap-x-[23px] text-[14px] items-center">
-                <li className="ml-[173px] shrink">12.5588</li>
-                <li className="ml-[200px] shrink-0">30 روز</li>
-                <li className="ml-[180px] shrink-0">25537 #</li>
-                <li className="flex gap-x-[5px] items-center shrink-0">
-                  <button className="w-[109px] h-[37px] dark:bg-[#F3A702] hover:bg-[#23E87B] bg-[#1BD3EC] rounded-[7px]">
-                    دانلود فایل
-                  </button>
-                  <button className="w-[109px] h-[37px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[7px]">
-                    تمدید
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            <div className="w-[1218px] h-[60px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[15px] mb-[7px] pl-[220px] pr-[82px] py-[6px] flex justify-between items-center">
-              <ul className="flex gap-x-[23px] text-[14px] items-center">
-                <li className="ml-[173px] shrink">12.5588</li>
-                <li className="ml-[200px] shrink-0">30 روز</li>
-                <li className="ml-[180px] shrink-0">25537 #</li>
-                <li className="flex gap-x-[5px] items-center shrink-0">
-                  <button className="w-[109px] h-[37px] dark:bg-[#F3A702] hover:bg-[#23E87B] bg-[#1BD3EC] rounded-[7px]">
-                    دانلود فایل
-                  </button>
-                  <button className="w-[109px] h-[37px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[7px]">
-                    تمدید
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            <div className="w-[1218px] h-[60px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[15px] mb-[7px] pl-[220px] pr-[82px] py-[6px] flex justify-between items-center">
-              <ul className="flex gap-x-[23px] text-[14px] items-center">
-                <li className="ml-[173px] shrink">12.5588</li>
-                <li className="ml-[200px] shrink-0">30 روز</li>
-                <li className="ml-[180px] shrink-0">25537 #</li>
-                <li className="flex gap-x-[5px] items-center shrink-0">
-                  <button className="w-[109px] h-[37px] dark:bg-[#F3A702] hover:bg-[#23E87B] bg-[#1BD3EC] rounded-[7px]">
-                    دانلود فایل
-                  </button>
-                  <button className="w-[109px] h-[37px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[7px]">
-                    تمدید
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            <div className="w-[1218px] h-[60px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[15px] mb-[7px] pl-[220px] pr-[82px] py-[6px] flex justify-between items-center">
-              <ul className="flex gap-x-[23px] text-[14px] items-center">
-                <li className="ml-[173px] shrink">12.5588</li>
-                <li className="ml-[200px] shrink-0">30 روز</li>
-                <li className="ml-[180px] shrink-0">25537 #</li>
-                <li className="flex gap-x-[5px] items-center shrink-0">
-                  <button className="w-[109px] h-[37px] dark:bg-[#F3A702] hover:bg-[#23E87B] bg-[#1BD3EC] rounded-[7px]">
-                    دانلود فایل
-                  </button>
-                  <button className="w-[109px] h-[37px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[7px]">
-                    تمدید
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            <div className="w-[1218px] h-[60px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[15px] mb-[7px] pl-[220px] pr-[82px] py-[6px] flex justify-between items-center">
-              <ul className="flex gap-x-[23px] text-[14px] items-center">
-                <li className="ml-[173px] shrink">12.5588</li>
-                <li className="ml-[200px] shrink-0">30 روز</li>
-                <li className="ml-[180px] shrink-0">25537 #</li>
-                <li className="flex gap-x-[5px] items-center shrink-0">
-                  <button className="w-[109px] h-[37px] dark:bg-[#F3A702] hover:bg-[#23E87B] bg-[#1BD3EC] rounded-[7px]">
-                    دانلود فایل
-                  </button>
-                  <button className="w-[109px] h-[37px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[7px]">
-                    تمدید
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            <div className="w-[1218px] h-[60px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[15px] mb-[7px] pl-[220px] pr-[82px] py-[6px] flex justify-between items-center">
-              <ul className="flex gap-x-[23px] text-[14px] items-center">
-                <li className="ml-[173px] shrink">12.5588</li>
-                <li className="ml-[200px] shrink-0">30 روز</li>
-                <li className="ml-[180px] shrink-0">25537 #</li>
-                <li className="flex gap-x-[5px] items-center shrink-0">
-                  <button className="w-[109px] h-[37px] dark:bg-[#F3A702] hover:bg-[#23E87B] bg-[#1BD3EC] rounded-[7px]">
-                    دانلود فایل
-                  </button>
-                  <button className="w-[109px] h-[37px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[7px]">
-                    تمدید
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            <div className="w-[1218px] h-[60px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[15px] mb-[7px] pl-[220px] pr-[82px] py-[6px] flex justify-between items-center">
-              <ul className="flex gap-x-[23px] text-[14px] items-center">
-                <li className="ml-[173px] shrink">12.5588</li>
-                <li className="ml-[200px] shrink-0">30 روز</li>
-                <li className="ml-[180px] shrink-0">25537 #</li>
-                <li className="flex gap-x-[5px] items-center shrink-0">
-                  <button className="w-[109px] h-[37px] dark:bg-[#F3A702] hover:bg-[#23E87B] bg-[#1BD3EC] rounded-[7px]">
-                    دانلود فایل
-                  </button>
-                  <button className="w-[109px] h-[37px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[7px]">
-                    تمدید
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            <div className="w-[1218px] h-[60px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[15px] mb-[7px] pl-[220px] pr-[82px] py-[6px] flex justify-between items-center">
-              <ul className="flex gap-x-[23px] text-[14px] items-center">
-                <li className="ml-[173px] shrink">12.5588</li>
-                <li className="ml-[200px] shrink-0">30 روز</li>
-                <li className="ml-[180px] shrink-0">25537 #</li>
-                <li className="flex gap-x-[5px] items-center shrink-0">
-                  <button className="w-[109px] h-[37px] dark:bg-[#F3A702] hover:bg-[#23E87B] bg-[#1BD3EC] rounded-[7px]">
-                    دانلود فایل
-                  </button>
-                  <button className="w-[109px] h-[37px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] hover:bg-[#23E87B] bg-[#F3A702] rounded-[7px]">
-                    تمدید
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            <div className="w-[1218px] h-[60px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[15px] mb-[7px] pl-[220px] pr-[82px] py-[6px] flex justify-between items-center">
-              <ul className="flex gap-x-[23px] text-[14px] items-center">
-                <li className="ml-[173px] shrink">12.5588</li>
-                <li className="ml-[200px] shrink-0">30 روز</li>
-                <li className="ml-[180px] shrink-0">25537 #</li>
-                <li className="flex gap-x-[5px] items-center shrink-0">
-                  <button className="w-[109px] h-[37px] dark:bg-[#F3A702] hover:bg-[#23E87B] bg-[#1BD3EC] rounded-[7px]">
-                    دانلود فایل
-                  </button>
-                  <button className="w-[109px] h-[37px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] hover:bg-[#23E87B] bg-[#F3A702] rounded-[7px]">
-                    تمدید
-                  </button>
-                </li>
-              </ul>
-            </div>
+            <tr className="w-[1218px] h-[60px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[15px] mb-[7px] pl-[220px] pr-[82px] py-[6px] flex justify-between items-center">
+              <td className="ml-[187px] shrink">12.5588</td>
+              <td className="ml-[215px] shrink-0">30 روز</td>
+              <td className="ml-[200px] shrink-0">25537 #</td>
+              <td className="flex gap-x-[5px] items-center shrink-0">
+                <button className="w-[109px] h-[37px] dark:bg-[#F3A702] hover:bg-[#23E87B] bg-[#1BD3EC] rounded-[7px]">
+                  دانلود فایل
+                </button>
+                <button className="w-[109px] h-[37px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[7px]">
+                  تمدید
+                </button>
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
