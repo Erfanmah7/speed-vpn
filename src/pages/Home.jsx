@@ -17,54 +17,145 @@ function Home() {
               <p>عکس</p>
               <p>متن</p>
               <div className="flex justify-center items-center">
-              <p className="text-[13px] w-[141px] text-center mt-[10px]">
-                برای تست رایـگان روی برنامه مــورد نظر کلیک کنید
-              </p>
+                <p className="text-[13px] w-[141px] text-center mt-[10px]">
+                  برای تست رایـگان روی برنامه مــورد نظر کلیک کنید
+                </p>
               </div>
               <div className="flex justify-between items-center mt-[10px] text-black">
                 <p>رایگان</p>
                 <p>1 ساعته</p>
               </div>
-              <button className="bg-[#087E3D] w-[143px] h-[27px] rounded-[5px]  mt-[7px]">3</button>
-              <button className="bg-[#10A753] w-[143px] h-[27px] rounded-[5px] mt-[4px]">2</button>
+              <button className="bg-[#087E3D] w-[143px] h-[27px] rounded-[5px]  mt-[7px]">
+                3
+              </button>
+              <button className="bg-[#10A753] w-[143px] h-[27px] rounded-[5px] mt-[4px]">
+                2
+              </button>
             </div>
             <div className="w-[214px] h-[276px] rounded-[25px] bg-[#1BD3EC] px-[36px] py-[16px] flex flex-col justify-between">
-            <p>عکس</p>
+              <p>عکس</p>
               <p>متن</p>
               <div className="flex justify-center items-center">
-              <p className="text-[13px] w-[141px] text-center mt-[10px]">
-                برای تست رایـگان روی برنامه مــورد نظر کلیک کنید
-              </p>
+                <p className="text-[13px] w-[141px] text-center mt-[10px]">
+                  برای تست رایـگان روی برنامه مــورد نظر کلیک کنید
+                </p>
               </div>
               <div className="flex justify-between items-center mt-[10px] text-black">
                 <p>رایگان</p>
                 <p>1 ساعته</p>
               </div>
-              <button className="bg-[#188796] w-[143px] h-[27px] rounded-[5px]  mt-[7px]">3</button>
-              <button className="bg-[#020F20] w-[143px] h-[27px] rounded-[5px] mt-[4px]">ثبت سفارش</button>
+              <button className="bg-[#188796] w-[143px] h-[27px] rounded-[5px]  mt-[7px]">
+                3
+              </button>
+              <button className="bg-[#020F20] w-[143px] h-[27px] rounded-[5px] mt-[4px]">
+                ثبت سفارش
+              </button>
             </div>
             <div className="w-[214px] h-[276px] rounded-[25px] bg-[#F3A702] px-[36px] py-[16px] flex flex-col justify-between">
-            <p>عکس</p>
+              <p>عکس</p>
               <p>متن</p>
               <div className="flex justify-center items-center">
-              <p className="text-[13px] w-[141px] text-center mt-[10px]">
-                برای تست رایـگان روی برنامه مــورد نظر کلیک کنید
-              </p>
+                <p className="text-[13px] w-[141px] text-center mt-[10px]">
+                  برای تست رایـگان روی برنامه مــورد نظر کلیک کنید
+                </p>
               </div>
               <div className="flex justify-between items-center mt-[10px] text-black">
                 <p>رایگان</p>
                 <p>1 ساعته</p>
               </div>
-              <button className="bg-[#BF870F] w-[143px] h-[27px] rounded-[5px]  mt-[7px]">3</button>
-              <button className="bg-[#23E87B] w-[143px] h-[27px] rounded-[5px] mt-[4px]">ثبت سفارش</button>
+              <button className="bg-[#BF870F] w-[143px] h-[27px] rounded-[5px]  mt-[7px]">
+                3
+              </button>
+              <button className="bg-[#23E87B] w-[143px] h-[27px] rounded-[5px] mt-[4px]">
+                ثبت سفارش
+              </button>
             </div>
           </div>
           <div className="flex gap-x-[24px]">
             <div className="w-[384px] h-[329px] rounded-[15px] dark:bg-[#081A30] bg-white px-[19px] py-[14px]">
-              right
+              {/* right */}
+
+              <div className="flex justify-between">
+                <p>یک روز مانده تا اتمام اشتراک</p>
+                <p>icon</p>
+              </div>
+              <div className="w-full h-[27px] bg-[#1BD3EC] rounded-[5px] mt-[14px] mb-[11px] flex justify-around items-center">
+                <p>تمدید فایل</p>
+                <p>یوزر</p>
+                <p>محصول</p>
+              </div>
+              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+                <button className="w-[78px] h-[21px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[4px] text-xs">
+                  تمدید
+                </button>
+                <p>12.5868</p>
+                <p>icon</p>
+              </div>
+              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+                <button className="w-[78px] h-[21px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[4px] text-xs">
+                  تمدید
+                </button>
+                <p>12.5868</p>
+                <p>icon</p>
+              </div>
+              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+                <button className="w-[78px] h-[21px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[4px] text-xs">
+                  تمدید
+                </button>
+                <p>12.5868</p>
+                <p>icon</p>
+              </div>
+              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+                <button className="w-[78px] h-[21px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[4px] text-xs">
+                  تمدید
+                </button>
+                <p>12.5868</p>
+                <p>icon</p>
+              </div>
+              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+                <button className="w-[78px] h-[21px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[4px] text-xs">
+                  تمدید
+                </button>
+                <p>12.5868</p>
+                <p>icon</p>
+              </div>
             </div>
             <div className="w-[384px] h-[329px] rounded-[15px] dark:bg-[#081A30] bg-white px-[19px] py-[14px]">
-              left
+              {/* left */}
+              <div className="flex justify-between">
+                <p>اعلام روز باقی مانده 5 فایل اخیر</p>
+                <p>icon</p>
+              </div>
+              <div className="w-full h-[27px] bg-[#1BD3EC] rounded-[5px] mt-[14px] mb-[11px] flex justify-around items-center">
+                <p>مانده</p>
+                <p>یوزر</p>
+                <p>محصول</p>
+              </div>
+              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+                <p>30 روز</p>
+                <p>12.5868</p>
+                <p>icon</p>
+              </div>
+              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+                <p>20 روز</p>
+                <p>12.5868</p>
+                <p>icon</p>
+              </div>
+              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+                <p>18 روز</p>
+                <p>12.5868</p>
+                <p>icon</p>
+              </div>
+              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+                <p>14 روز</p>
+                <p>12.5868</p>
+                <p>icon</p>
+              </div>
+              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+                <p>10 روز</p>
+                <p>12.5868</p>
+                <p>icon</p>
+              </div>
             </div>
           </div>
         </div>
