@@ -174,6 +174,8 @@ function Home() {
             </div>
             <div>
               <input
+              dir="ltr"
+              placeholder="300.000"
                 type="text"
                 className="w-[379px] h-[56px] rounded-[10px] dark:bg-[#020F20] bg-[#f1f5f9] p-[15px] outline-none mb-[24px]"
               />
