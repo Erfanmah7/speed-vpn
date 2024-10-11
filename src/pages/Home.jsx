@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Banner from "../components/Banner";
 import Wallet from "../components/Wallet";
 
 function Home() {
+  const [value, setValue] = useState(3);
+
+  const increment = () => {
+    setValue((prevValue) => prevValue + 1);
+  };
+
+  const decrement = () => {
+    setValue((prevValue) => (prevValue > 0 ? prevValue - 1 : 0)); // جلوگیری از مقدار منفی
+  };
+
   return (
     <div>
       <Banner />
@@ -44,9 +54,31 @@ function Home() {
                 <p>رایگان</p>
                 <p>1 ساعته</p>
               </div>
-              <button className="bg-[#188796] w-[143px] h-[27px] rounded-[5px]  mt-[7px]">
-                3
-              </button>
+              <div className="relative mt-[7px]">
+                <input
+                  type="number"
+                  value={value}
+                  onChange={(e) => setValue(Number(e.target.value))}
+                  className="w-[143px] h-[27px] bg-[#188796]  text-right border rounded-[5px] border-[#188796] py-1 px-[10px] text-black
+               appearance-none [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none
+               focus:outline-none"
+                />
+                <div className="absolute top-0 left-0 flex flex-col h-full justify-between gap-[2px]">
+                  <button
+                    className="text-black text-[10px] px-[5px] leading-[10px]" // line-height کمتر
+                    onClick={increment}
+                  >
+                    +
+                  </button>
+                  <button
+                    className="text-black text-[10px] px-[5px] leading-[10px]" // line-height کمتر
+                    onClick={decrement}
+                  >
+                    -
+                  </button>
+                </div>
+              </div>
+
               <button className="bg-[#020F20] w-[143px] h-[27px] rounded-[5px] mt-[4px]">
                 ثبت سفارش
               </button>
@@ -63,9 +95,30 @@ function Home() {
                 <p>رایگان</p>
                 <p>1 ساعته</p>
               </div>
-              <button className="bg-[#BF870F] w-[143px] h-[27px] rounded-[5px]  mt-[7px]">
-                3
-              </button>
+              <div className="relative mt-[7px]">
+                <input
+                  type="number"
+                  value={value}
+                  onChange={(e) => setValue(Number(e.target.value))}
+                  className="w-[143px] h-[27px] bg-[#BF870F]  text-right border rounded-[5px] border-[#BF870F] py-1 px-[10px] text-black
+               appearance-none [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none
+               focus:outline-none"
+                />
+                <div className="absolute top-0 left-0 flex flex-col h-full justify-between gap-[2px]">
+                  <button
+                    className="text-black text-[10px] px-[5px] leading-[10px]" // line-height کمتر
+                    onClick={increment}
+                  >
+                    +
+                  </button>
+                  <button
+                    className="text-black text-[10px] px-[5px] leading-[10px]" // line-height کمتر
+                    onClick={decrement}
+                  >
+                    -
+                  </button>
+                </div>
+              </div>
               <button className="bg-[#23E87B] w-[143px] h-[27px] rounded-[5px] mt-[4px]">
                 ثبت سفارش
               </button>
@@ -174,8 +227,8 @@ function Home() {
             </div>
             <div>
               <input
-              dir="ltr"
-              placeholder="300.000"
+                dir="ltr"
+                placeholder="300.000"
                 type="text"
                 className="w-[379px] h-[56px] rounded-[10px] dark:bg-[#020F20] bg-[#f1f5f9] p-[15px] outline-none mb-[24px]"
               />
