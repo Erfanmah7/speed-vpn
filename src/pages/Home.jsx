@@ -3,16 +3,24 @@ import Banner from "../components/Banner";
 import Wallet from "../components/Wallet";
 
 function Home() {
-  const [value, setValue] = useState(3);
+  const [value1, setValue1] = useState(0); // مقدار input اول
+  const [value2, setValue2] = useState(0); // مقدار input دوم
 
-  const increment = () => {
-    setValue((prevValue) => prevValue + 1);
+  const increment1 = () => {
+    setValue1((prevValue) => prevValue + 1);
   };
 
-  const decrement = () => {
-    setValue((prevValue) => (prevValue > 0 ? prevValue - 1 : 0)); // جلوگیری از مقدار منفی
+  const decrement1 = () => {
+    setValue1((prevValue) => (prevValue > 0 ? prevValue - 1 : 0));
   };
 
+  const increment2 = () => {
+    setValue2((prevValue) => prevValue + 1);
+  };
+
+  const decrement2 = () => {
+    setValue2((prevValue) => (prevValue > 0 ? prevValue - 1 : 0));
+  };
   return (
     <div>
       <Banner />
@@ -57,22 +65,22 @@ function Home() {
               <div className="relative mt-[7px]">
                 <input
                   type="number"
-                  value={value}
-                  onChange={(e) => setValue(Number(e.target.value))}
-                  className="w-[143px] h-[27px] bg-[#188796]  text-right border rounded-[5px] border-[#188796] py-1 px-[10px] text-black
-               appearance-none [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none
-               focus:outline-none"
+                  value={value1}
+                  onChange={(e) => setValue1(Number(e.target.value))}
+                  className="w-[143px] h-[27px] bg-[#188796] text-right border rounded-[5px] border-[#188796] py-1 px-[10px] text-black
+                    appearance-none [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none
+                    focus:outline-none"
                 />
                 <div className="absolute top-0 left-0 flex flex-col h-full justify-between gap-[2px]">
                   <button
-                    className="text-black text-[10px] px-[5px] leading-[10px]" // line-height کمتر
-                    onClick={increment}
+                    className="text-black text-[10px] px-[5px] leading-[10px]"
+                    onClick={increment1}
                   >
                     +
                   </button>
                   <button
-                    className="text-black text-[10px] px-[5px] leading-[10px]" // line-height کمتر
-                    onClick={decrement}
+                    className="text-black text-[10px] px-[5px] leading-[10px]"
+                    onClick={decrement1}
                   >
                     -
                   </button>
@@ -98,22 +106,22 @@ function Home() {
               <div className="relative mt-[7px]">
                 <input
                   type="number"
-                  value={value}
-                  onChange={(e) => setValue(Number(e.target.value))}
-                  className="w-[143px] h-[27px] bg-[#BF870F]  text-right border rounded-[5px] border-[#BF870F] py-1 px-[10px] text-black
-               appearance-none [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none
-               focus:outline-none"
+                  value={value2}
+                  onChange={(e) => setValue2(Number(e.target.value))}
+                  className="w-[143px] h-[27px] bg-[#BF870F] text-right border rounded-[5px] border-[#BF870F] py-1 px-[10px] text-black
+                    appearance-none [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none
+                    focus:outline-none"
                 />
                 <div className="absolute top-0 left-0 flex flex-col h-full justify-between gap-[2px]">
                   <button
-                    className="text-black text-[10px] px-[5px] leading-[10px]" // line-height کمتر
-                    onClick={increment}
+                    className="text-black text-[10px] px-[5px] leading-[10px]"
+                    onClick={increment2}
                   >
                     +
                   </button>
                   <button
-                    className="text-black text-[10px] px-[5px] leading-[10px]" // line-height کمتر
-                    onClick={decrement}
+                    className="text-black text-[10px] px-[5px] leading-[10px]"
+                    onClick={decrement2}
                   >
                     -
                   </button>
