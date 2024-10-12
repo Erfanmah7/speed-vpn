@@ -53,13 +53,20 @@ function Home() {
             <div className="w-[214px] h-[276px] rounded-[25px] bg-[#1BD3EC] px-[36px] py-[16px] flex flex-col justify-between">
               <p>عکس</p>
               <p>متن</p>
-              <div className="flex justify-center items-center">
-                <p className="text-[13px] w-[141px] text-center mt-[10px]">
-                  برای تست رایـگان روی برنامه مــورد نظر کلیک کنید
-                </p>
+              <div className="flex flex-col gap-y-1 text-xs">
+                <div className="flex justify-between items-center">
+                  <p>کاربر نامحدود</p>
+                  <p>icon</p>
+                </div>
+                <div className="flex justify-between items-center">
+                  <p>حجم 50 گیگ</p>
+                  <p>icon</p>
+                </div>
               </div>
               <div className="flex justify-between items-center mt-[10px] text-black">
-                <p>رایگان</p>
+                <p>
+                  99.000 <span className="text-sm">تومان</span>
+                </p>
                 <p>1 ماه</p>
               </div>
               <div className="relative mt-[7px]">
@@ -94,13 +101,20 @@ function Home() {
             <div className="w-[214px] h-[276px] rounded-[25px] bg-[#F3A702] px-[36px] py-[16px] flex flex-col justify-between">
               <p>عکس</p>
               <p>متن</p>
-              <div className="flex justify-center items-center">
-                <p className="text-[13px] w-[141px] text-center mt-[10px]">
-                  برای تست رایـگان روی برنامه مــورد نظر کلیک کنید
-                </p>
+              <div className="flex flex-col gap-y-1 text-xs">
+                <div className="flex justify-between items-center">
+                  <p>تک کاربره</p>
+                  <p>icon</p>
+                </div>
+                <div className="flex justify-between items-center">
+                  <p>ترافیک نامحدود</p>
+                  <p>icon</p>
+                </div>
               </div>
               <div className="flex justify-between items-center mt-[10px] text-black">
-                <p>رایگان</p>
+                <p>
+                  99.000 <span className="text-sm">تومان</span>
+                </p>
                 <p>1 ماه</p>
               </div>
               <div className="relative mt-[7px]">
