@@ -60,7 +60,7 @@ function Home() {
               </div>
               <div className="flex justify-between items-center mt-[10px] text-black">
                 <p>رایگان</p>
-                <p>1 ساعته</p>
+                <p>1 ماه</p>
               </div>
               <div className="relative mt-[7px]">
                 <input
@@ -87,7 +87,7 @@ function Home() {
                 </div>
               </div>
 
-              <button className="bg-[#020F20] w-[143px] h-[27px] rounded-[5px] mt-[4px]">
+              <button className="bg-[#020F20] bg-[#f1f5f9] w-[143px] h-[27px] rounded-[5px] mt-[4px]">
                 ثبت سفارش
               </button>
             </div>
@@ -101,7 +101,7 @@ function Home() {
               </div>
               <div className="flex justify-between items-center mt-[10px] text-black">
                 <p>رایگان</p>
-                <p>1 ساعته</p>
+                <p>1 ماه</p>
               </div>
               <div className="relative mt-[7px]">
                 <input
@@ -140,40 +140,40 @@ function Home() {
                 <p>یک روز مانده تا اتمام اشتراک</p>
                 <p>icon</p>
               </div>
-              <div className="w-full h-[27px] bg-[#1BD3EC] rounded-[5px] mt-[14px] mb-[11px] flex justify-around items-center">
+              <div className="w-full h-[27px] dark:bg-[#1BD3EC] bg-[#F3A702] rounded-[5px] mt-[14px] mb-[11px] flex justify-around items-center">
                 <p>تمدید فایل</p>
                 <p>یوزر</p>
                 <p>محصول</p>
               </div>
-              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+              <div className="w-full h-[39px] dark:dark:bg-[#020F20] bg-[#f1f5f9] rounded-[5px] mb-[5px] flex justify-around items-center">
                 <button className="w-[78px] h-[21px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[4px] text-xs">
                   تمدید
                 </button>
                 <p>12.5868</p>
                 <p>icon</p>
               </div>
-              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+              <div className="w-full h-[39px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[5px] mb-[5px] flex justify-around items-center">
                 <button className="w-[78px] h-[21px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[4px] text-xs">
                   تمدید
                 </button>
                 <p>12.5868</p>
                 <p>icon</p>
               </div>
-              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+              <div className="w-full h-[39px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[5px] mb-[5px] flex justify-around items-center">
                 <button className="w-[78px] h-[21px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[4px] text-xs">
                   تمدید
                 </button>
                 <p>12.5868</p>
                 <p>icon</p>
               </div>
-              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+              <div className="w-full h-[39px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[5px] mb-[5px] flex justify-around items-center">
                 <button className="w-[78px] h-[21px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[4px] text-xs">
                   تمدید
                 </button>
                 <p>12.5868</p>
                 <p>icon</p>
               </div>
-              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+              <div className="w-full h-[39px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[5px] mb-[5px] flex justify-around items-center">
                 <button className="w-[78px] h-[21px] dark:bg-[#1BD3EC] hover:bg-[#23E87B] bg-[#F3A702] rounded-[4px] text-xs">
                   تمدید
                 </button>
@@ -187,32 +187,32 @@ function Home() {
                 <p>اعلام روز باقی مانده 5 فایل اخیر</p>
                 <p>icon</p>
               </div>
-              <div className="w-full h-[27px] bg-[#1BD3EC] rounded-[5px] mt-[14px] mb-[11px] flex justify-around items-center">
+              <div className="w-full h-[27px] dark:bg-[#1BD3EC] bg-[#F3A702] rounded-[5px] mt-[14px] mb-[11px] flex justify-around items-center">
                 <p>مانده</p>
                 <p>یوزر</p>
                 <p>محصول</p>
               </div>
-              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+              <div className="w-full h-[39px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[5px] mb-[5px] flex justify-around items-center">
                 <p>30 روز</p>
                 <p>12.5868</p>
                 <p>icon</p>
               </div>
-              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+              <div className="w-full h-[39px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[5px] mb-[5px] flex justify-around items-center">
                 <p>20 روز</p>
                 <p>12.5868</p>
                 <p>icon</p>
               </div>
-              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+              <div className="w-full h-[39px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[5px] mb-[5px] flex justify-around items-center">
                 <p>18 روز</p>
                 <p>12.5868</p>
                 <p>icon</p>
               </div>
-              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+              <div className="w-full h-[39px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[5px] mb-[5px] flex justify-around items-center">
                 <p>14 روز</p>
                 <p>12.5868</p>
                 <p>icon</p>
               </div>
-              <div className="w-full h-[39px] bg-[#020F20] rounded-[5px] mb-[5px] flex justify-around items-center">
+              <div className="w-full h-[39px] dark:bg-[#020F20] bg-[#f1f5f9] rounded-[5px] mb-[5px] flex justify-around items-center">
                 <p>10 روز</p>
                 <p>12.5868</p>
                 <p>icon</p>
