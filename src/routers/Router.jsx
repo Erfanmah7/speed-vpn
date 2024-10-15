@@ -5,6 +5,8 @@ import InstallationGuide from "../pages/InstallationGuide";
 import FileList from "../pages/FileList";
 import { getProfile } from "../services/user";
 import { useQuery } from "@tanstack/react-query";
+import VideoPlayer from "../components/VideoPlayer";
+import Menu from "../components/Menu";
 
 function Router() {
   const { data, isPending, error } = useQuery({
@@ -36,6 +38,8 @@ function Router() {
           }
         /> */}
       <Route path="/" element={<Home />} />
+      <Route path="videoplayer" element={<VideoPlayer />} />
+      <Route path="menu" element={<Menu />} />
       <Route path="/installationguide" element={<InstallationGuide />} />
       <Route path="/filelist" element={<FileList />} />
     </Routes>
