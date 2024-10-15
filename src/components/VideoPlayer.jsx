@@ -100,7 +100,7 @@ const VideoPlayer = () => {
       </div>
 
       {/* بک کنترلرها*/}
-      <div className="absolute rounded-bl-2xl rounded-br-2xl -bottom-6 py-2 left-0 right-0 bg-stone-600 bg-opacity-50 px-5">
+      <div className="absolute rounded-bl-2xl rounded-br-2xl -bottom-6 py-2 left-0 right-0 bg-stone-600 bg-opacity-50 px-5 backdrop-blur-md backdrop-brightness-150">
         <div className="flex justify-between items-center w-full px-5">
           {/* عقب جلو ویدئو */}
           {/* <button 
