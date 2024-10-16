@@ -19,7 +19,10 @@ export default {
         MorabbaMedium: "Morabba Medium",
         MorabbaBold: "Morabba Bold",
       },
-
+      boxShadow: {
+        myShadow1: "4.1px -5px 0 0 #020f20",
+        myShadow2: "-4.1px -5px 0 0 #020f20",
+      },
       container: {
         center: true,
         padding: {
