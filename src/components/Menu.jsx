@@ -33,7 +33,7 @@ const Menu = () => {
 </span>
 
         {Menus.map((menu, i) => (
-          <li key={i} className="w-16">
+          <li key={i} className="w-16 cursor-pointer">
             <a
               className="flex flex-col text-center pt-6"
               onClick={() => setActive(i)}
