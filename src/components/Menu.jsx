@@ -11,20 +11,27 @@ const Menu = () => {
   const [active, setActive] = useState(0);
   return (
     <div className="bg-gray-600 h-[8rem] px-6 rounded-t-xl">
-      <ul className="flex relative">
-        <span
-          className={`bg-[#020f20] duration-500 ${Menus[active].dis} border-4 border-[#020f20] h-16 w-16 absolute
-         -top-5 rounded-full`}
-        >
-          <span
-            className="w-3.5 h-3.5 bg-transparent absolute top-4 -left-[18px] 
-          rounded-tr-[11px] shadow-myShadow1"
-          ></span>
-          <span
-            className="w-3.5 h-3.5 bg-transparent absolute top-4 -right-[18px] 
-          rounded-tl-[11px] shadow-myShadow2"
-          ></span>
-        </span>
+      <ul className="flex relative h-[8rem]">
+      <span className={`relative duration-500 ${Menus[active].dis}`}>
+  <span
+    className="bg-[#020f20] duration-500 border-4 border-[#020f20] h-16 w-16 absolute bottom-[35px] rounded-full z-50"
+  ></span>
+
+  <span
+    className="w-10 h-16 bg-gray-600 absolute -bottom-[0px] -left-[104px] 
+    rounded-br-[50px] z-20 shadow-myShadow1"
+  ></span>
+
+  <span
+    className="w-[100px] h-16 bg-[#020f20] absolute -bottom-[0px] -left-[80px] z-10"
+  ></span>
+
+  <span
+    className="w-10 h-16 bg-gray-600 absolute -bottom-[0px] -right-[40px] 
+    rounded-bl-[50px] z-20 shadow-myShadow2"
+  ></span>
+</span>
+
         {Menus.map((menu, i) => (
           <li key={i} className="w-16">
             <a
