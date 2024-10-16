@@ -18,24 +18,24 @@ const Menu = () => {
   ></span>
 
   <span
-    className="w-10 h-16 bg-gray-600 absolute -bottom-[0px] -left-[104px] 
-    rounded-br-[50px] z-20 shadow-myShadow1"
+    className="w-16 h-16 bg-gray-600 absolute -bottom-[0px] -left-[128px] 
+    rounded-br-[70px] z-20 shadow-myShadow1"
   ></span>
 
   <span
-    className="w-[100px] h-16 bg-[#020f20] absolute -bottom-[0px] -left-[80px] z-10"
+    className="w-[130px] h-16 bg-[#020f20] absolute -bottom-[0px] -left-[97px] z-10"
   ></span>
 
   <span
-    className="w-10 h-16 bg-gray-600 absolute -bottom-[0px] -right-[40px] 
-    rounded-bl-[50px] z-20 shadow-myShadow2"
+    className="w-16 h-16 bg-gray-600 absolute -bottom-[0px] -right-[64px] 
+    rounded-bl-[70px] z-20 shadow-myShadow2"
   ></span>
 </span>
 
         {Menus.map((menu, i) => (
           <li key={i} className="w-16 cursor-pointer">
             <a
-              className="flex flex-col text-center pt-6"
+              className="flex flex-col text-center pt-6 text-sm"
               onClick={() => setActive(i)}
             >
               <span
