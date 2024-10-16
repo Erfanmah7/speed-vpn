@@ -32,7 +32,7 @@ const Menu = () => {
 
         {Menus.map((menu, i) => (
           <li key={i} className="w-16 mx-2 cursor-pointer">
-            {" "}
+            
             {/* فاصله با mx-2 */}
             <a
               className="flex flex-col text-center items-center justify-center pt-16 text-sm"
@@ -43,12 +43,12 @@ const Menu = () => {
                   i === active && "-mt-2 text-white z-50"
                 }`}
               >
-                <svg className="w-[35px] h-[35px] text-white">
+                <svg className={`w-[35px] h-[35px] ${i===active && "text-orange-400 duration-500"}`}>
                   <use href={`#${menu.icon}`}></use>
                 </svg>
               </span>
               <span
-                className={` ${
+                className={`text-orange-400  ${
                   active === i
                     ? "translate-y-7 duration-700 opacity-100"
                     : "opacity-0 translate-y-4"
